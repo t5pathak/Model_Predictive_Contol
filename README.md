@@ -1,5 +1,3 @@
-# RPN Assignment-2
-
 # Model Predective Control - MPC in Motion
 - Model predictive control (MPC) is an advanced method of process control that is used to control a process while satisfying a set of constraints. It has been in use in the process industries in chemical plants and oil refineries since the 1980s.
 - For our assignment, we used the concept of model predictive control and applied it to a robot navigating in a scene, aiming to reach a certain end location or goal point from a given start point.
