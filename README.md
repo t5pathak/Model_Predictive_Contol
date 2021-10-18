@@ -7,6 +7,9 @@
 ### Without Obstacle
 ![MPC_Without_Obstacle](https://user-images.githubusercontent.com/44245211/137783152-922bf5ad-55fe-4502-b624-0886f9d2b5c5.gif)
 
+### With Obstacle
+
+
 # Outline of the Code
 - Create an empty image. This empty image represents our world. Now, we’ll add the start point, end (goal) point, and obstacles to it.
 - Mark the start and end points on it. This will be our world. The start point and end points are defined as a 2-tuple in the main code, and are marked in the image using red and green coloured (small) circles (having a radius of 5) respectively, by using the cv2.circle() function.
