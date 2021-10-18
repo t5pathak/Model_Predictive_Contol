@@ -8,7 +8,7 @@
 ![MPC_Without_Obstacle](https://user-images.githubusercontent.com/44245211/137783152-922bf5ad-55fe-4502-b624-0886f9d2b5c5.gif)
 
 ### With Obstacle
-
+![MPC_With_Obstacle](https://user-images.githubusercontent.com/44245211/137783575-5c13d68f-0c67-4455-9730-46fece6c05a6.gif)
 
 # Outline of the Code
 - Create an empty image. This empty image represents our world. Now, we’ll add the start point, end (goal) point, and obstacles to it.
