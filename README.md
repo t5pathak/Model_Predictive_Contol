@@ -3,10 +3,10 @@
 - For our assignment, we used the concept of model predictive control and applied it to a robot navigating in a scene, aiming to reach a certain end location or goal point from a given start point.
 
 ### Without Obstacle
-![MPC_Without_Obstacle](https://user-images.githubusercontent.com/44245211/137783917-5db610d2-b732-4902-8eca-171039fd85ad.gif)
+![without_obs](https://user-images.githubusercontent.com/44245211/137799458-26da3d51-ea3e-4aea-9422-230008a38193.gif)
 
 ### With Obstacle
-![MPC_With_Obstacle](https://user-images.githubusercontent.com/44245211/137783575-5c13d68f-0c67-4455-9730-46fece6c05a6.gif)
+![with_obs](https://user-images.githubusercontent.com/44245211/137799455-8165fa84-70f4-41b7-9934-53f9e7c24587.gif)
 
 # Outline of the Code
 1. Create an empty image. This empty image represents our world. Now, we’ll add the start point, end (goal) point, and obstacles to it.
