@@ -5,7 +5,7 @@
 - For our assignment, we used the concept of model predictive control and applied it to a robot navigating in a scene, aiming to reach a certain end location or goal point from a given start point.
 
 ### Without Obstacle
-![MPC_Without_Obstacle](https://user-images.githubusercontent.com/44245211/137783152-922bf5ad-55fe-4502-b624-0886f9d2b5c5.gif)
+![MPC_Without_Obstacle](https://user-images.githubusercontent.com/44245211/137783917-5db610d2-b732-4902-8eca-171039fd85ad.gif)
 
 ### With Obstacle
 ![MPC_With_Obstacle](https://user-images.githubusercontent.com/44245211/137783575-5c13d68f-0c67-4455-9730-46fece6c05a6.gif)
