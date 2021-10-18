@@ -9,15 +9,15 @@
 ![MPC_With_Obstacle](https://user-images.githubusercontent.com/44245211/137783575-5c13d68f-0c67-4455-9730-46fece6c05a6.gif)
 
 # Outline of the Code
-- Create an empty image. This empty image represents our world. Now, we’ll add the start point, end (goal) point, and obstacles to it.
-- Mark the start and end points on it. This will be our world. The start point and end points are defined as a 2-tuple in the main code, and are marked in the image using red and green coloured (small) circles (having a radius of 5) respectively, by using the cv2.circle() function.
-- (If needed), add obstacles to the scene. By using in-built openCV functions like cv2.circle().
-- For the without obstacles case, all we have to do now, is to add the velocity constraints (i.e.
+1. Create an empty image. This empty image represents our world. Now, we’ll add the start point, end (goal) point, and obstacles to it.
+2. Mark the start and end points on it. This will be our world. The start point and end points are defined as a 2-tuple in the main code, and are marked in the image using red and green coloured (small) circles (having a radius of 5) respectively, by using the cv2.circle() function.
+3. (If needed), add obstacles to the scene. By using in-built openCV functions like cv2.circle().
+4. For the without obstacles case, all we have to do now, is to add the velocity constraints (i.e.
 vmin < x_dot < vmax) and the robot equation i.e. x(n+1) = x(n) + x_dot * delta_t
-- Once all the constraints have been appended to the constraints array, the array is passed to
+5. Once all the constraints have been appended to the constraints array, the array is passed to
 the cvxpy.solve() function, which is an in-built python optimization solver for convex
 optimization problems.
-- For the with obstacles case, some additional effort needs to be put in, as we have to include
+6. For the with obstacles case, some additional effort needs to be put in, as we have to include
 the obstacle avoidance constraints too. The obstacle avoidance constraints ensure that the robot does not choose a path which will collide with the obstacle.
 
 
@@ -41,3 +41,5 @@ the obstacle avoidance constraints too. The obstacle avoidance constraints ensur
 
 # To save the output
 In both the files, uncomment the cv2.imwrite line. And change the directory path to your desired path.
+
+##### Big Thanks to Pratikkumar Bulani!
