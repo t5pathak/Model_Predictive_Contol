@@ -5,7 +5,7 @@
 - For our assignment, we used the concept of model predictive control and applied it to a robot navigating in a scene, aiming to reach a certain end location or goal point from a given start point.
 
 ### Without Obstacle
-
+![MPC_Without_Obstacle](https://user-images.githubusercontent.com/44245211/137783152-922bf5ad-55fe-4502-b624-0886f9d2b5c5.gif)
 
 # Outline of the Code
 - Create an empty image. This empty image represents our world. Now, we’ll add the start point, end (goal) point, and obstacles to it.
